@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.hadoop', name: 'hadoop-common', version: '3.3.0'
+    compile group: 'org.apache.hadoop', name: 'hadoop-client', version: '3.3.0'
+    compile group: 'org.apache.hadoop', name: 'hadoop-hdfs', version: '3.3.0'
+    compile group: 'org.apache.hadoop', name: 'hadoop-mapreduce', version: '3.3.0'
+    compile group: 'org.apache.hadoop', name: 'hadoop-mapreduce-client', version: '3.3.0'
+}
